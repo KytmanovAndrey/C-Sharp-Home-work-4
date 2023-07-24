@@ -9,7 +9,7 @@ void FillArray(int[] collection)
     while (index < length)
     {
         collection[index] = new Random().Next(0, 100);
-        index ++;
+        index++;
     }
 }
 
@@ -21,19 +21,19 @@ void PrintArray(int[] col)
     while (position < count)
     {
         Console.Write($", {col[position]}");
-        position ++;
+        position++;
     }
     position = 1;
     Console.Write($" -> [{col[0]}");
     while (position < count)
     {
         Console.Write($", {col[position]}");
-        position ++;
+        position++;
     }
     Console.Write("]");
 }
 
-int[]array = new int [8];
+int[] array = new int[8];
 
 FillArray(array);
 PrintArray(array);

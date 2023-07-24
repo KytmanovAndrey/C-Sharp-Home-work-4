@@ -18,6 +18,7 @@ int GetInput(string text)
     Console.Write(text);
     return Convert.ToInt32(Console.ReadLine());
 }
+
 int numberA = GetInput("Введите число A: ");
 int numberB = GetInput("Введите число B: ");
 GetDegree(numberA, numberB);

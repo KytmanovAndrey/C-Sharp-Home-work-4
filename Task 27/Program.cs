@@ -10,8 +10,8 @@ int GetSumOfDigits(int number)
     int temp = number;
     while (number > 0)
     {
-    sum = sum + number % 10;
-    number /= 10;
+        sum = sum + number % 10;
+        number /= 10;
     }
     Console.WriteLine($"{temp} -> {sum}");
     return sum;
